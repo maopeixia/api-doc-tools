@@ -348,18 +348,18 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
-      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+    <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;string,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt; IEnumerable&lt;KeyValuePair&lt;string,TestClassTwo&gt;&gt;.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class mdoc.Test.SampleClasses.TestClassTwo&gt;&gt; System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;.GetEnumerator() cil managed" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.IEnumerator</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
