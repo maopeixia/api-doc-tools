@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public class TestClassThree : System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;, System.Collections.Generic.IDictionary&lt;string,mdoc.Test.SampleClasses.TestClassTwo&gt;, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TestClassThree extends System.Object implements class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;, class System.Collections.Generic.IDictionary`2&lt;string, class mdoc.Test.SampleClasses.TestClassTwo&gt;, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class mdoc.Test.SampleClasses.TestClassTwo&gt;&gt;, class System.Collections.IEnumerable" />
   <AssemblyInfo>
-    <AssemblyName>mdoc.Test</AssemblyName>
+    <AssemblyName>TestClass</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
