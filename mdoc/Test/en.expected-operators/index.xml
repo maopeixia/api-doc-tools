@@ -17,7 +17,6 @@
     <Namespace Name="mdoc.Test.SampleClasses">
       <Type Name="TestClass" Kind="Class" />
       <Type Name="TestClassTwo" Kind="Class" />
-      <Type Name="TestClassThree" Kind="Class" />
     </Namespace>
   </Types>
   <Title>TestClass</Title>
