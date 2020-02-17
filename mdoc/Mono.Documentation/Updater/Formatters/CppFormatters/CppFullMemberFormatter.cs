@@ -422,8 +422,11 @@ namespace Mono.Documentation.Updater.Formatters.CppFormatters
             StringBuilder buf = new StringBuilder ();
             AppendVisibility (buf, constructor);
             
-
             buf.Append(' ');
+
+            if (constructor.IsStatic)
+                buf.Append("static ");
+
             base.AppendTypeName(buf, constructor.DeclaringType.Name);
             AppendParameters(buf, constructor, constructor.Parameters);
             buf.Append(';');
